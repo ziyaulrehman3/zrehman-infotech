@@ -1,0 +1,31 @@
+.contact-poster{
+  width: 100%;
+  margin: 0px;
+}
+
+.contact-heading-last{
+  text-align: center;
+  color: #7C99AC;
+  font-family: monospace;
+  font-size: 50px;
+  margin-top: 50px;
+
+}
+
+.contact-button-last{
+  width: 26%;
+  height: 50px;
+  margin-left: 37%;
+  border-radius: 25px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #7C99AC;
+  background-color: white;
+  border: 2px solid #7C99AC;
+  margin-bottom: 50px;
+}
+
+.contact-button-last:hover{
+  background-color: #7C99AC;
+  color: white;
+}

@@ -1,0 +1,52 @@
+<%- include("partials/header") -%>
+
+
+<div class="login-page">
+
+  <div class="login-div-1" style="top:-100px;">
+
+     <h2>Welcome to Z-Rehman InfoTech</h2>
+     <p>Log in using your username or mobile number</p>
+
+    <form class="" action="/loginPagePasswardAcces" method="post">
+      <div class="login-div">
+
+        <img id="login-img" src="images/logo-main.png" alt="">
+        <br>
+        <input id="login-userid" type="text" name="username" value="<%=valueofuser%>" placeholder="Email or Mobile Number" readonly>
+        <br>
+        <input id="login-userid" type="password" name="passward" value="" placeholder="Enter Passward" required>
+        <br>
+        <a class="login-a" href="#"><button class="login-button login-button-1" type="submit" name="button">Login</button></a>
+        <br>
+
+      </div>
+
+    </form>
+  </div>
+
+  <div class="login-div-2">
+    <img src="images/login-image.jpg" alt="">
+  </div>
+</div>
+
+
+
+
+<!--
+<form class="" action="/loginPagePasswardAcces" method="post">
+  <div class="login-div">
+
+    <img id="login-img" src="../images/logo.png" alt="">
+    <br>
+    <input id="login-userid" type="text" name="username" value="<%=valueofuser%>" placeholder="Email or Mobile Number" readonly>
+    <br>
+    <input id="login-userid" type="text" name="passward" value="" placeholder="Enter Passward" required>
+    <br>
+    <a class="login-a" href="#"><button class="login-button login-button-1" type="submit" name="button">Login</button></a>
+    <br>
+
+  </div>
+</form> -->
+
+<%- include("partials/footer") -%>

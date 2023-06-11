@@ -1,0 +1,39 @@
+
+<%- include("partials/header") -%>
+
+<div class="login-page">
+
+  <div class="login-div-1" style="top:-100px;">
+
+     <h2>Welcome to Z-Rehman InfoTech</h2>
+     <p>Log in using your username or mobile number</p>
+
+    <form class="" action="/loginPagePassward" method="post">
+      <div class="login-div">
+
+        <img id="login-img" src="images/logo-main.png" alt="">
+        <br>
+        <input id="login-userid" type="text" name="username" value="" placeholder="Email or Mobile Number">
+        <br>
+        <a class="login-a" href="/loginPagePassward"><button class="login-button login-button-1" type="submit" name="button" value="login-br">Next</button></a>
+        <br>
+
+          <p class="login-seprator" >____________________ &nbsp or &nbsp ____________________</p>
+
+        <a class="login-a" href="/signup"><button class="login-button login-button-2" type="button" name="button">Sign Up</button></a>
+
+      </div>
+
+    </form>
+  </div>
+
+
+  <div class="login-div-2">
+    <img src="images/login-image.jpg" alt="">
+  </div>
+
+</div>
+
+
+
+  <%- include("partials/footer") -%>

@@ -1,0 +1,42 @@
+.trust-poster-2{
+  width: 88%;
+  border-radius: 2%;
+  margin-left: 6%;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.trust-last{
+  text-align: center;
+  color: #7C99AC;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: monospace;
+}
+
+
+.trust-last-button{
+  width: 30%;
+  height: 40px;
+  margin-left: 35%;
+  border-radius: 20px;
+  font-size: 22px;
+  color: #7C99AC;
+  background-color: white;
+  border:2px solid #7C99AC;
+  margin-bottom: 50px;
+
+
+}
+
+.trust-last-button:hover{
+  color: white;
+  background-color: #7C99AC;
+  border:2px solid #7C99AC;
+
+}
+
+a{
+  text-decoration:none;
+
+}

@@ -1,0 +1,111 @@
+.index-slideshow-container{
+  width:100%;
+  position: relative;
+  margin:auto;
+}
+
+.hide{
+  display:none;
+}
+
+.index-dot{
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  margin:0 2px;
+  background-color: green;
+  color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,.index-dor:hover{
+  background-color: red;
+}
+
+.index-fade{
+
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+
+.index-services{
+  display: block;
+  text-align: center;
+  margin:50px 0px;
+}
+
+.index-services-sub{
+  display: inline-block;
+  width:200px;
+  margin: 0 40px;
+  box-shadow: 3px 3px 3em #e3e6e4;
+  border-radius: 20px;
+}
+
+.index-services-sub a{
+  text-decoration: none;
+  color: #4F709C;
+}
+
+.index-services-sub a:hover{
+  text-decoration: underline;
+}
+.index-services h1{
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+.index-services-sub img{
+  width:120px;
+}
+
+.index-customer{
+  text-align: center;
+  color:#4F709C;
+  line-height: 20px;
+  margin: 100px 0px 30px 0px;
+}
+
+.index-customer button{
+  width:300px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: #11009E;
+  border:none;
+  color:white;
+}
+
+.index-services-icons{
+  text-align: center;
+  height: 250px;
+}
+.index-services-icons img{
+  border-radius: 50%;
+  width:100px;
+  margin: 20px;
+  box-shadow: 10px 10px 0.8em gray;
+}
+
+.index-services-icons-bottom{
+  position:relative;
+  top:100px;
+}
+
+.our-partners{
+  background-color: gray;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.our-partners h1{
+  color: white;
+  text-decoration: underline;
+}
+.our-partners img{
+  width:100px;
+  border-radius: 25%;
+  margin: 20px;
+}

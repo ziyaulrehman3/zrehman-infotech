@@ -1,0 +1,72 @@
+/*Footer CSS Start */
+
+.footer{
+  width:99%;
+  padding-top: 60px;
+  padding-left: 20px;
+  display: block;
+  background-color: white;
+}
+
+.footer-div-1{
+  width:20%;
+  display: inline-block;
+}
+
+.footer-div-2{
+  width:78%;
+  display: inline-block;
+}
+
+.footer-logo{
+  width: 170px;
+  display:block;
+  margin: auto;
+  position: relative;
+  top: -50px;
+}
+
+.th-footer{
+  height: 30px;
+  padding: 0px 30px;
+
+}
+
+.td-footer{
+  height: 40px;
+  padding: 0px 35px;
+  overflow: hidden;
+}
+
+.footer-link{
+  text-decoration: none;
+  color:black;
+}
+
+.footer-link:hover{
+  color:#7C99AC;
+}
+
+.th-footer,.td-footer{
+  text-align: left;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+}
+
+.footer-link-logo{
+  width:70px;
+  background-color: white;
+  margin: 0px;
+}
+
+.footer-row-2{
+  padding-bottom: 0px;
+}
+
+.footer-social-logo{
+  width:35px;
+  display: inline-flex;
+  padding-right: 10px;
+}
+
+/*Footer CSS End */
